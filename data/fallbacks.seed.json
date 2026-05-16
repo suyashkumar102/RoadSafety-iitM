@@ -1,0 +1,25 @@
+[
+  {
+    "id": "india-erss-112",
+    "name": "Emergency Response Support System",
+    "type": "fallback_emergency",
+    "lat": null,
+    "lon": null,
+    "phone": "112",
+    "address": null,
+    "locality": "National",
+    "region": "India",
+    "country": "India",
+    "source_url": "https://112.gov.in/",
+    "source_name": "Emergency Response Support System, Government of India",
+    "verified_at": "2026-05-16",
+    "availability": "24x7",
+    "confidence_score": 1,
+    "confidence_reasons": [
+      "Official national emergency response system",
+      "Government of India ERSS source"
+    ],
+    "notes": "Use for emergency assistance from police, fire, health, and other services."
+  }
+]
+

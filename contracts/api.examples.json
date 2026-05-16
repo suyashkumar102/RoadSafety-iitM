@@ -1,0 +1,81 @@
+{
+  "nearby_services_request": {
+    "lat": 12.9915,
+    "lon": 80.2337,
+    "radius_km": 8,
+    "service_types": [
+      "hospital",
+      "ambulance",
+      "police",
+      "tow",
+      "repair"
+    ],
+    "location_source": "gps"
+  },
+  "nearby_services_response": {
+    "query_location": {
+      "lat": 12.9915,
+      "lon": 80.2337,
+      "source": "gps",
+      "confidence": "high"
+    },
+    "services": [],
+    "fallback_contacts": [
+      {
+        "id": "india-erss-112",
+        "name": "Emergency Response Support System",
+        "type": "fallback_emergency",
+        "lat": null,
+        "lon": null,
+        "phone": "112",
+        "address": null,
+        "locality": "National",
+        "region": "India",
+        "country": "India",
+        "source_url": "https://112.gov.in/",
+        "source_name": "Emergency Response Support System, Government of India",
+        "verified_at": "2026-05-16",
+        "availability": "24x7",
+        "confidence_score": 1,
+        "confidence_reasons": [
+          "Official national emergency response system"
+        ],
+        "notes": "Use for emergency assistance from police, fire, health, and other services."
+      }
+    ],
+    "offline_cache_version": "bootstrap-0",
+    "generated_at": "2026-05-16T00:00:00Z",
+    "warnings": [
+      "Bootstrap response example; production services must be source-backed."
+    ]
+  },
+  "incident_summary_request": {
+    "lat": 12.9915,
+    "lon": 80.2337,
+    "nearest_landmark": "IIT Madras main gate",
+    "injury_count": 1,
+    "hazards": [
+      "traffic",
+      "fuel smell"
+    ],
+    "notes": "Two-wheeler collision. Rider conscious."
+  },
+  "incident_summary_response": {
+    "summary": "Road accident near IIT Madras main gate. 1 injured person reported. Hazards: traffic, fuel smell. Notes: Two-wheeler collision. Rider conscious. Coordinates: 12.9915, 80.2337.",
+    "generated_from": "user_reported_fields",
+    "medical_disclaimer": "This is not medical advice or dispatch confirmation."
+  },
+  "assistant_request": {
+    "message": "Find the nearest ambulance",
+    "lat": 12.9915,
+    "lon": 80.2337
+  },
+  "assistant_response": {
+    "answer": "I can only show ambulance contacts from the verified RoadSoS dataset. If no local ambulance contact is available, use the official emergency fallback.",
+    "used_sources": [
+      "contacts_dataset",
+      "approved_safety_templates"
+    ],
+    "refusal_reason": null
+  }
+}
