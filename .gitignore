@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+pytest-cache-files-*/
 .venv/
 venv/
 
@@ -24,4 +25,8 @@ data/generated/
 Thumbs.db
 .vscode/
 .idea/
+!.idea/
+.idea/*
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
 
